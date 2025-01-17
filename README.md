@@ -1,4 +1,4 @@
-# Project Name
+# TripNest
 
 A **full-stack application** built using **Next.js** (frontend) and **NestJS** (backend) within a monorepo structure.
 
@@ -20,7 +20,7 @@ A **full-stack application** built using **Next.js** (frontend) and **NestJS** (
 
 ## Overview
 
-This project is a full-stack web application designed for [describe the purpose of your project briefly]. It uses a **monorepo** structure to manage both the frontend and backend under a single repository for seamless development and deployment.
+This project is a full-stack web application designed for TripNest. It uses a **monorepo** structure to manage both the frontend and backend under a single repository for seamless development and deployment.
 
 ---
 
