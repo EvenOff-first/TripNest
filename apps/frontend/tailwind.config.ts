@@ -9,20 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#4CAF50', // Primary green
-        accent: {
-          orange: '#FF5722', // Orange
-          blue: '#00BCD4', // Blue accent
-        },
-        background: '#F5F5F5', // Light-gray
-        text: {
-          main: '#212121', // Black-gray
-          secondary: '#757575', // Secondary-gray
-        },
+        white: '#FFFFFF',
+        slamon: '#FF8682',
+        mint: '#8DD3BB',
+        black: '#112211',
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif'], // Primary font
-        roboto: ['Roboto', 'sans-serif'], // Secondary font
+        montserrat: ['Montserrat', 'sans-serif'], // Primary font
+        oswald: ['Oswald', 'sans-serif'], // Secondary font
       },
     },
   },

@@ -1,21 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  body {
+    @apply font-montserrat bg-white text-white;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  .button-primary {
+    @apply rounded-lg bg-white px-6 py-4 text-black;
+  }
+  .button-secondary {
+    @apply py-4;
+  }
+  .button {
+    @apply font-montserrat text-sm font-semibold;
+  }
+  .main {
+    @apply p-8;
+  }
 }
